@@ -16,7 +16,7 @@ public class GenerateEnemies : MonoBehaviour
     }
         IEnumerator EnemyDrop()
         {
-            while (enemyCount < 10)
+            while (enemyCount < 5)
             {
                 xpos = Random.Range(-9, 15);
                 zpos = Random.Range(48, 55);
@@ -25,6 +25,20 @@ public class GenerateEnemies : MonoBehaviour
                 enemyCount += 1;
             }
         }
+
+    public void respawn()
+    {
+        Instantiate(theEnemy, new Vector3(xpos, 0, zpos), Quaternion.identity);
+        /*
+        {
+            if (theEnemy != null)
+            {
+                Destroy(gameObject);
+            }
+        }
+        */
+    }
+
     }
 
 
