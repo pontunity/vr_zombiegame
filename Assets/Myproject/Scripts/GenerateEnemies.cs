@@ -29,6 +29,9 @@ public class GenerateEnemies : MonoBehaviour
     public void respawn()
     {
         Instantiate(theEnemy, new Vector3(xpos, 0, zpos), Quaternion.identity);
+        xpos = Random.Range(-9, 15);
+        zpos = Random.Range(48, 55);
+        
         /*
         {
             if (theEnemy != null)
@@ -36,7 +39,7 @@ public class GenerateEnemies : MonoBehaviour
                 Destroy(gameObject);
             }
         }
-        */
+       */
     }
 
     }
