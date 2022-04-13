@@ -321,6 +321,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7903002427518479587, guid: e1ee2c8b215fec24eaa520587dfb5473,
+        type: 3}
+      propertyPath: m_Text
+      value: "The church....\n\n People have reported ghost hauntings and satanic
+        presence in the church\n\nAre you willing to help? "
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1ee2c8b215fec24eaa520587dfb5473, type: 3}
 --- !u!1 &828653 stripped
