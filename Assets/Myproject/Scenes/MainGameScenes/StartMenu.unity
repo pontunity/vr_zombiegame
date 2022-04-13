@@ -741,8 +741,8 @@ PrefabInstance:
     - target: {fileID: 8858460719086918109, guid: 1f75a4a1ec4271442a6c51de842cadf0,
         type: 3}
       propertyPath: m_Text
-      value: Thank you for choosing to help, hold the zombie wave for as long as
-        you can to protect the church.
+      value: These zombies carry a deadly disease, you die if they touch you. Kill
+        20 zombies to win.
       objectReference: {fileID: 0}
     - target: {fileID: 8858460719086918109, guid: 1f75a4a1ec4271442a6c51de842cadf0,
         type: 3}
