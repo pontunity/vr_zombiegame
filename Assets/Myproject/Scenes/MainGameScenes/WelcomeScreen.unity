@@ -324,7 +324,7 @@ PrefabInstance:
     - target: {fileID: 7903002427518479587, guid: e1ee2c8b215fec24eaa520587dfb5473,
         type: 3}
       propertyPath: m_Text
-      value: "The church....\n\n People have reported ghost hauntings and satanic
+      value: "The church....\n\nPeople have reported ghost hauntings \nand satanic
         presence in the church\n\nAre you willing to help? "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
