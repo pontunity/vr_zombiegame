@@ -2525,7 +2525,7 @@ GameObject:
   - component: {fileID: 5760759322832678161}
   - component: {fileID: 5760759322832678189}
   - component: {fileID: 5760759322832678190}
-  - component: {fileID: 7268939314518215763}
+  - component: {fileID: 3505395627703220546}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -2665,7 +2665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 5760759322832678190}
-  Player: {fileID: 3981163082695507802, guid: 6cf3930a2ed4fb44aa03e9a2cfeae39c, type: 3}
+  Player: {fileID: 2902767581217586040, guid: a9ffb160c0f52144b98c8c9f513226a1, type: 3}
 --- !u!195 &5760759322832678190
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2688,7 +2688,7 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &7268939314518215763
+--- !u!114 &3505395627703220546
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2700,7 +2700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbcc4d560dacb954c9a1e58db8877304, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadscene: 0
+  zombiekill: 0
 --- !u!1 &8328215839140125862
 GameObject:
   m_ObjectHideFlags: 0

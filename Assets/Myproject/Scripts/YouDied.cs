@@ -5,15 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class YouDied : MonoBehaviour
 {
-    public int loadscene;
+    public int zombiekill;
 
     private void Start()
     {
-        loadscene = SceneManager.GetActiveScene().buildIndex + 1;
+        zombiekill = SceneManager.GetActiveScene().buildIndex + 1;
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        SceneManager.LoadScene(loadscene);
+        SceneManager.LoadScene(zombiekill);
+        Debug.Log("You collided");
     }
 }
